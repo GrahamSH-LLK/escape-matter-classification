@@ -42,7 +42,9 @@ jobs:
 
       - name: Run linter 👀
         run: npm run generate
-        
+        with:
+            BASE_URL: "https://gh.grahamsh.com/escape-matter-classification"
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
