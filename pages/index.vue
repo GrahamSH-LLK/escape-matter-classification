@@ -269,7 +269,7 @@
     </Modal>
     <Modal v-model="diagramModalOpen" name="diagramModal">
       <template v-slot:title>You see a diagram of a compound</template>
-      <img src="/diagram.png" />
+      <img src="~/assets/diagram.png" />
       <p>1. What is the chemical formula for this compound?</p>
       <p class="whitespace-pre">
         Square: 2HO Triangle: H2O Circle: HO2 Hexagon: 2H2O
@@ -347,7 +347,7 @@
     </Modal>
     <Modal name="periodModal" v-model="periodModalOpen">
       <template v-slot:title>Last lock!</template>
-      <img src="/period.png" />
+      <img src="~/assets/period.png" />
       <p class="whitespace-pre">
         Red: Atomic Mass Blue: Atomic Number Green: Chemical Symbol
       </p>
