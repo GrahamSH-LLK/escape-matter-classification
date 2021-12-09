@@ -17,7 +17,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap'}],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto%20Sans&display=swap'}],
   },
   tailwindcss: { config: {
     mode: 'jit',
